@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pedroedrasousa="http://pedroedrasousa.com" >
+
+    <PreferenceCategory
+        android:key="theme"
+        android:title="THEMES" >
+        <ListPreference
+            android:entries="@array/preset_opt"
+            android:entryValues="@array/preset_vals"
+            android:key="preset"
+            android:summary="@string/pref_preset_summary"
+            android:title="@string/pref_preset_title" />
+        <ListPreference
+            android:entries="@array/preset2_opt"
+            android:entryValues="@array/preset2_vals"
+            android:key="preset2"
+            android:summary="@string/pref_preset2_summary"
+            android:title="@string/pref_preset2_title" />
+        <Preference
+            android:key="randomize"
+            android:title="@string/pref_randomize_title"
+        	android:summary="@string/pref_randomize_summary" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="BUBBLE PROPERTIES" >
+        <ListPreference
+            android:entries="@array/nbr_meta_opt"
+            android:entryValues="@array/nbr_meta_vals"
+            android:key="nbr_bubbles"
+            android:summary="@string/pref_nbr_meta_summary"
+            android:title="@string/pref_nbr_meta_title" />
+        <ListPreference
+            android:entries="@array/color_palette_opt"
+            android:entryValues="@array/color_palette_vals"
+            android:key="color_palette"
+            android:summary="@string/pref_pref_meta_color_palette_summary"
+            android:title="@string/pref_meta_color_palette_title" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:key="size"
+            android:max="100"
+            android:summary="@string/pref_meta_size_summary"
+            android:title="@string/pref_meta_size_title"
+            pedroedrasousa:min="1" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="15"
+            android:key="dist_offset"
+            android:max="100"
+            android:summary="@string/pref_refraction_summary"
+            android:title="@string/pref_refraction_title"
+            pedroedrasousa:min="0" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="50"
+            android:key="transparency"
+            android:max="100"
+            android:summary="@string/pref_meta_transparency_summary"
+            android:title="@string/pref_meta_transparency_title"
+            pedroedrasousa:min="0" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="LIGHTING PROPERTIES" >
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="15"
+            android:key="color_factor"
+            android:max="100"
+            android:summary="@string/pref_meta_color_factor_summary"
+            android:title="@string/pref_meta_color_factor_title"
+            pedroedrasousa:min="0" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="5"
+            android:key="ambient_light"
+            android:max="100"
+            android:summary="@string/pref_ambient_light_summary"
+            android:title="@string/pref_ambient_light_title"
+            pedroedrasousa:min="0" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="5"
+            android:key="specular_light"
+            android:max="100"
+            android:summary="@string/pref_specular_light_summary"
+            android:title="@string/pref_specular_light_title"
+            pedroedrasousa:min="0" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="BACKGROUND PROPERTTIES" >
+        <ListPreference
+            android:entries="@array/bg_image_opt"
+            android:entryValues="@array/bg_image_vals"
+            android:key="bg_chooser"
+            android:summary="@string/pref_choose_image_summary"
+            android:title="@string/pref_choose_image_title" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:key="bg_brightness"
+            android:max="100"
+            android:summary="@string/pref_bg_brightness_summary"
+            android:title="@string/pref_bg_brightness_title"
+            pedroedrasousa:interval="5"
+            pedroedrasousa:min="-100" />
+        <CheckBoxPreference
+            android:key="scrolling_wallpaper"
+            android:summary="@string/pref_scrolling_bg_summary"
+            android:title="@string/pref_scrolling_bg_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="general"
+        android:title="GENERAL SETTINGS" >
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:key="speed"
+            android:max="100"
+            android:summary="@string/pref_speed_summary"
+            android:title="@string/pref_speed_title"
+            pedroedrasousa:interval="1"
+            pedroedrasousa:min="1" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:key="zoom"
+            android:max="100"
+            android:summary="@string/pref_zoom_summary"
+            android:title="@string/pref_zoom_title"
+            pedroedrasousa:interval="1"
+            pedroedrasousa:min="0" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:key="trail_factor"
+            android:max="100"
+            android:summary="@string/pref_trail_factor_summary"
+            android:title="@string/pref_trail_factor_title"
+            pedroedrasousa:interval="1"
+            pedroedrasousa:min="0" />
+        <CheckBoxPreference
+            android:key="react_scrolling"
+            android:summary="@string/pref_react_summary"
+            android:title="@string/pref_react_title" />
+        <CheckBoxPreference
+            android:key="sound_reaction"
+            android:summary="@string/pref_sound_toggle_summary"
+            android:title="@string/pref_sound_toggle_title" />
+        <ListPreference
+            android:entries="@array/render_mode_opt"
+            android:entryValues="@array/render_mode_vals"
+            android:key="render_mode"
+            android:summary="@string/pref_render_mode_summary"
+            android:title="@string/pref_render_mode_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="performance"
+        android:title="PERFORMANCE SETTINGS" >
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="fps_limit"
+            android:summary="@string/pref_fps_limit_summary"
+            android:title="@string/pref_fps_limit_title" />
+        <CheckBoxPreference
+            android:key="show_fps"
+            android:summary="@string/pref_show_fps_summary"
+            android:title="@string/pref_show_fps_title" />
+        <com.pedroedrasousa.gui.SeekBarPreference
+            android:defaultValue="12"
+            android:key="detail"
+            android:max="25"
+            android:summary="@string/pref_meta_detail_summary"
+            android:title="@string/pref_meta_detail_title"
+            pedroedrasousa:min="5" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="other"
+        android:title="OTHER" >
+        <Preference
+            android:key="lwp"
+            android:summary="Open live wallpaper picker"
+            android:title="Live Wallpaper" />
+        <Preference
+            android:key="rate"
+            android:summary="Rate or review app in Google Play Store"
+            android:title="Rate Wobbly Bubbles" />
+        <Preference
+            android:key="about"
+            android:title="About" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

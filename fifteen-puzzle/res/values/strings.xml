@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fifteen Puzzle Prime</string>
+	<string name="author">Pedro Edra Sousa</string>
+    <string name="website">http://www.pedroedrasousa.com/</string>
+    <string name="year">2013</string>
+	<string name="about">Thank you for installing Fifteen Puzzle.\nFeel free to contact me with suggestions or to report any issue or problem.\nI can be reached at</string>
+    <string name="email">pedroedrasousa@gmail.com</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="new_game_in_progress">Can\'t start new game now\nPrevious game initialization still in progress</string>
+    
+	<string name="btn_ok">Got it!</string>
+    <string name="btn_quit">Quit</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_main_menu">Main Menu</string>
+    <string name="btn_next">Next</string>
+
+    <string name="msg_end_game">End this game?</string>
+    <string name="msg_out_of_moves">You ran out of moves!</string>
+    <string name="msg_classic_mode_intro">In the classic mode puzzle, there is no time or moves limit. The best score will be considered the fastest time.</string>
+    <string name="msg_challenge_mode_intro">In the challenge mode, puzzle must be solved within a limited number of moves.</string>
+
+    <string name="classic_game_title">Classic Game</string>
+    <string name="challenge_title">Challenge</string>
+    
+    <item type="integer" name="default_score_time" format="integer">-1</item>
+</resources>

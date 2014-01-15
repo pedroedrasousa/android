@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <string name="ad_mob_unit_id">dummy</string>
+    <string name="ga_tracking_id">dummy</string>
+    <string name="ga_tracking_id_free">dummy</string>
+    <string name="tap_joy_app_id">dummy</string>
+    <string name="tap_joy_secret_key">dummy</string>
+    <string name="tap_joy_app_id_free">dummy</string>
+    <string name="tap_joy_secret_key_free">dummy</string>
+    <string name="startapp_developer_id">dummy</string>
+	<string name="startapp_app_id">dummy</string>
+</resources>

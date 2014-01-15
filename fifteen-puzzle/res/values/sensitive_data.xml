@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+	<string name="ad_view_unit_id_main_menu">dummy</string>
+    <string name="ad_view_unit_id_game_screen">dummy</string>
+    <string name="interstitial_ad_view_unit_id">dummy</string>
+</resources>

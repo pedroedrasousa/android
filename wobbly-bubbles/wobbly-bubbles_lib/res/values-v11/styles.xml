@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+    <style name="SettingsTheme" parent="android:Theme.Holo.NoActionBar"></style>
+
+    <style name="PreferenceTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+</resources>

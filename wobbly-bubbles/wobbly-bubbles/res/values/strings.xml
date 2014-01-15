@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wobbly Bubbles</string>
+    <string name="about">Thank you for installing Wobbly Bubbles.\nFeel free to contact me with suggestions or to report any issue or problem.\nI can be reached at</string>
+    <string name="email">support@pedroedrasousa.com</string>
+    <string name="about2">\nWobbly Bubbles makes use of Android Color Picker aka AmbilWarna library licensed under</string>
+    <string name="url_apache"><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></string>
+</resources>

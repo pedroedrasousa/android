@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listOptions">
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>No limit</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="render_mode_opt">
+        <item>Normal</item>
+        <item>Wireframe</item>
+        <item>Thick Wireframe</item>
+        <item>Pixels</item>
+        <item>Big Pixels</item>
+        <item>Huge Pixels</item>
+    </string-array>
+    <string-array name="render_mode_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="bg_image_opt">
+        <item>Leaves</item>
+        <item>Clouds</item>
+        <item>Water</item>
+        <item>Droplets</item>
+        <item>Black</item>
+        <item>Select image from gallery&#x2026;</item>
+    </string-array>
+    <string-array name="bg_image_vals">
+        <item>leaves.jpg</item>
+        <item>clouds.jpg</item>
+        <item>water.jpg</item>
+        <item>droplets.jpg</item>
+        <item>black.jpg</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="preset_opt">
+        <item>Wobbling by the Leaves</item>
+        <item>Purple &amp; Green in the Sky</item>
+        <item>Wobbling Water</item>
+        <item>Two Lonely Bubbles</item>
+        <item>Green Goo</item>
+        <item>Cloudy</item>
+        <item>Pale Bubbles</item>
+        <item>Color Drops</item>
+        <item>Dark and Colorful</item>
+        <item>Dark Blue</item>
+        <item>Minecraft</item>
+        <item>Wobbly Wireframe</item>
+        <item>Poo</item>
+    </string-array>
+    <string-array name="preset_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="preset2_opt">
+        <item>Leaves</item>
+        <item>Clouds</item>
+        <item>Water</item>
+        <item>Droplets</item>
+    </string-array>
+    <string-array name="preset2_vals">
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="color_palette_opt">
+        <item>Red Green and Blue</item>
+        <item>Red and Green</item>
+        <item>Green and Blue</item>
+        <item>Blue and Red</item>
+        <item>Yellow and Red</item>
+        <item>Purple and Green</item>
+        <item>Orange and Blue</item>
+        <item>Black &amp; White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Custom&#x2026;</item>
+    </string-array>
+    <string-array name="color_palette_vals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="nbr_meta_opt">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="nbr_meta_vals">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

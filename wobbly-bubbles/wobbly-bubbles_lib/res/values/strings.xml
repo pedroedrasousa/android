@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wobbly Bubbles</string>
+    <string name="author">Pedro Edra Sousa</string>
+    <string name="website">http://www.pedroedrasousa.com/</string>
+    <string name="year">2013</string>
+    <string name="about">Thank you for installing Wobbly Bubbles.\nFeel free to contact me with suggestions or to report any issue or problem.\nI can be reached at</string>
+    <string name="email">support@pedroedrasousa.com</string>
+    <string name="about2"></string>
+    <string name="url_apache"></string>
+    <string name="button_settings">settings</string>
+    <string name="wallpaper_summary">Colourful Wobbling Bubbles</string>
+    
+    <string name="pref_nbr_meta_title">Number of Bubbles</string>
+    <string name="pref_nbr_meta_summary">How many bubbles wobbling around</string>
+    <string name="pref_speed_title">Motion Factor</string>
+    <string name="pref_speed_summary">How fast will bubbles move</string>
+    <string name="pref_zoom_title">Zoom</string>
+    <string name="pref_zoom_summary">Zoom In/Out</string>
+    <string name="pref_react_title">Touch Reaction</string>
+    <string name="pref_react_summary">Bubbles react to tap and swipe</string>
+    <string name="pref_render_mode_title">Render Mode</string>
+    <string name="pref_render_mode_summary">How bubbles are drawn</string>
+    <string name="pref_meta_size_title">Bubble Size</string>
+    <string name="pref_meta_size_summary">Change bubbles radius</string>
+    <string name="pref_refraction_title">Reflection</string>
+    <string name="pref_refraction_summary">Reflected background</string>
+    <string name="pref_meta_transparency_title">Transparency</string>
+    <string name="pref_meta_transparency_summary">Bubbles transparency</string>
+    <string name="pref_choose_image_title">Image</string>
+    <string name="pref_choose_image_summary">Choose background image</string>
+    <string name="pref_scrolling_bg_title">Scrolling Wallpaper</string>
+    <string name="pref_scrolling_bg_summary">Scrolling or static background image</string>
+    <string name="pref_fps_limit_title">LWP FPS Limit</string>
+    <string name="pref_fps_limit_summary">Lower to conserve battery\nOnly takes effect in Live Wallpaper mode</string>
+    <string name="pref_show_fps_title">Show FPS</string>
+    <string name="pref_show_fps_summary">Show the number of Frames Per Second\nNot available in Live Wallpaper mode</string>
+    <string name="pref_meta_detail_title">Detail</string>
+    <string name="pref_meta_detail_summary">Lower to conserve battery</string>
+    <string name="pref_meta_color_palette_title">Color Palette</string>
+    <string name="pref_pref_meta_color_palette_summary">Pick the colors to be used in the bubbles</string>
+    <string name="pref_sound_toggle_title">React to Sound</string>
+    <string name="pref_sound_toggle_summary">Whether bubbles react to sound or not\nNot available in Live Wallpaper mode</string>
+    <string name="pref_preset_title">Theme Presets</string>
+    <string name="pref_preset_summary">Choose setting values from a list of themed presets</string>
+    <string name="pref_preset2_title">High Detail Theme Presets</string>
+    <string name="pref_preset2_summary">Even more themed presets\nThese ones are juice hungry and not suitable for using as Live Wallpaper</string>
+    <string name="pref_randomize_title">Randomize</string>
+    <string name="pref_randomize_summary">Set random values for every property</string>
+    <string name="pref_light_title">Light</string>
+    <string name="pref_light_summary">Controls how light intensity affects bubbles</string>
+    <string name="pref_meta_color_factor_title">Intensity</string>
+    <string name="pref_meta_color_factor_summary">Light intensity value</string>
+    <string name="pref_ambient_light_title">Ambient</string>
+    <string name="pref_ambient_light_summary">Global lighting value</string>
+    <string name="pref_specular_light_title">Specular</string>
+    <string name="pref_specular_light_summary">Make bubbles shiny or dull</string>
+    <string name="pref_bg_brightness_title">Brightness</string>
+    <string name="pref_bg_brightness_summary">Background image brightness</string>
+    <string name="pref_trail_factor_title">Motion Blur</string>
+    <string name="pref_trail_factor_summary">Bubbles trail size</string>
+    <string name="description">Colorful wobbling bubbles</string>
+
+</resources>
